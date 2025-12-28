@@ -6,7 +6,16 @@ const Bio = () => {
   return (
     <section className="bio">
       <h2>About Me</h2>
-      <p>Content for Testing...</p>
+      <p>Experienced Senior PHP Developer with over 10 years of expertise in web
+development. Proficient in PHP, MySQL, HTML/CSS, JavaScript, jQuery/Ajax, and
+AngularJS, with a strong foundation in Firebase and Google Cloud Platform. Extensive
+experience with popular frameworks like Laravel, CodeIgniter, and WordPress,
+including full-stack development. Skilled in integrating third-party services such as
+Google APIs (Google Place and Google Translate) and Stripe Payment Gateway. Adept
+in server management with a solid understanding of Apache server installation.
+Experienced in leading teams, providing mentorship, and conducting code reviews.
+Passionate about delivering high-quality web applications that meet both client and
+user needs.</p>
     </section>
   );
 };
