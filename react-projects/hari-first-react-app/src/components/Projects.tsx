@@ -9,7 +9,34 @@ const Projects = () => {
       <div>
         <h3>kweliTV</h3>
         <p>Integrated APIs for Website, Mobile Apps & CTVs</p>
-        <a href="https://kweli.tv/" target="_blank"></a>
+        <a href="https://kweli.tv/" target="_blank">Link</a>
+      </div>
+
+      <div>
+        <h3>Lit TV</h3>
+        <p>Integrated APIs for Website</p>
+        <a href="https://www.littvnetwork.com/" target="_blank">Link</a>
+      </div>
+
+      <div>
+        <h3>HTV Fun</h3>
+        <p>Integrated APIs for Website</p>
+        <p>Integrated Stripe Payment Gateway in Shop page for secure payment transactions</p>
+        <a href="https://htvfun.com/" target="_blank">Link</a>
+      </div>
+
+      <div>
+        <h3>Atelier Cocktail</h3>
+        <p>Web Designing and content management using Wordpress</p>
+        <p>Integrated web design using HTML/CSS, Javascript/Jquery</p>
+        <a href="https://www.atelier-cocktail.com/" target="_blank">Link</a>
+      </div>
+
+      <div>
+        <h3>Polished RX</h3>
+        <p>Web Designing and content management using Wordpress</p>
+        <p>Integrated web design using HTML/CSS, Javascript/Jquery</p>
+        <a href="https://www.polishedrx.com/" target="_blank">Link</a>
       </div>
     </section>
   );

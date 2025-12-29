@@ -1,0 +1,18 @@
+//components/Projects.tsx
+
+import React from "react";
+
+const Education = () => {
+  return (
+    <section className="Education">
+      <h2>Education</h2>
+      <div>
+        <h3>Bachelor of Engineering (B.E - ECE)</h3>
+        <h4>Shanmuganathan Engineering College, Thirumayam</h4>
+        <p>2013</p>
+      </div>
+    </section>
+  );
+};
+
+export default Education

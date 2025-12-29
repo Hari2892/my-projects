@@ -8,10 +8,13 @@ body {
 }
 
 header {
+  background-image: url('../assets/images/profile_image.jpg');
+  background-size: cover;
   background-color: #333;
   color: white;
   padding: 20px;
   text-align: center;
+  min-height: 1000px;
 }
 
 section {
@@ -48,4 +51,14 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.header-name {
+  color: #000;
+  text-align: right;
+}
+
+.header-tag {
+  color: #000;
+  text-align: right;
 }
