@@ -1,34 +1,36 @@
 /* styles/App.css */
+
+/* Importing Raleway font directly in CSS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
-  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400; /* Regular weight */
+  font-size: 16px;
+  line-height: 1.6; /* For better readability */
+  background-color: #2C3E50;
+  color: #ECF0F1;
 }
 
 header {
-  background-color: #333;
-  color: white;
+  background-color: #2C3E50;
+  color: #ECF0F1;
   padding: 20px;
   text-align: center;
 }
 
+.bio img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+}
+
 section {
   padding: 20px;
-  margin: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-}
-
-h2 {
-  font-size: 2em;
+  background-color: #2C3E50;
 }
 
 ul {
@@ -41,11 +43,24 @@ ul li {
   list-style-type: disc;
 }
 
-a {
-  color: #007bff;
+a, Link {
+  color: #ECF0F1;
   text-decoration: none;
+  cursor: pointer;
 }
 
-a:hover {
-  text-decoration: underline;
+a:hover, Link:hover {
+  color: #BDC3C7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.right-section {
+  float: left;
+  width: 50%;
+}
+
+.left-section {
+  float: left;
+  width: 50%;
 }

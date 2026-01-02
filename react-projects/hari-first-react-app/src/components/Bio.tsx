@@ -2,9 +2,12 @@
 
 import React from "react";
 
+import myPhoto from '/src/assets/images/profile_image_1.jpg';
+
 const Bio = () => {
   return (
     <section className="bio">
+      <img src={myPhoto} alt="Hariharan R" />
       <h2>About Me</h2>
       <p>Experienced Senior PHP Developer with over 10 years of expertise in web
 development. Proficient in PHP, MySQL, HTML/CSS, JavaScript, jQuery/Ajax, and
