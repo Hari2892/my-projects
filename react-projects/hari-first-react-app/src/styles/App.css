@@ -23,9 +23,25 @@ header {
   text-align: center;
 }
 
+.bio .bio-full {
+  float: left;
+  width: 100%;
+}
+
+.bio .bio-left {
+  float: left;
+  width: 50%;
+}
+
+.bio .bio-right {
+  float: left;
+  width: 50%;
+}
+
 .bio img {
-  width: 200px; /* Adjust size as needed */
-  height: 200px;
+  width: 300px; /* Adjust size as needed */
+  height: 400px;
+  border-radius: 10px;
 }
 
 section {
@@ -44,14 +60,14 @@ ul li {
 }
 
 a, Link {
-  color: #ECF0F1;
+  color: #2dd4bf;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover, Link:hover {
-  color: #BDC3C7;
-  text-decoration: none;
+  color: #5eead4;
+  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -63,4 +79,21 @@ a:hover, Link:hover {
 .left-section {
   float: left;
   width: 50%;
+}
+
+.Contact a {
+  float: left;
+}
+
+.Contact a svg {
+  width: 24px;
+  height: 24px;
+  color: #2dd4bf;
+  margin-right: 10px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.Contact a svg:hover {
+  color: #5eead4;
+  transform: translateY(-2px);
 }

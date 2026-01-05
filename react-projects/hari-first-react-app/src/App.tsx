@@ -8,7 +8,6 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Sidebar from "./components/Sidebar";
 
 import "./styles/App.css";
 
@@ -18,7 +17,6 @@ const App = () => {
       <div className="right-section">
       <Header />
       <Bio />
-      <Sidebar />
       </div>
 
       <div className="left-section">
