@@ -6,7 +6,12 @@ const Contact = () => {
   return (
     <section className="Contact">
       <h2>Contact</h2>
-      <p>Email: hari4workuse2892@gmail.com</p>
+      <p className="email-part">
+        <span className="email-label">Email: </span>
+        <a href="mailto:hari4workuse2892@gmail.com" className="email-link">
+          hari4workuse2892@gmail.com
+        </a>
+      </p>
       <p><a href="https://linkedin.com/in/hariharan-r-55158515a" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0.5 8h4V24h-4V8zM8.5 8h3.8v2.2h.1c.5-1 1.8-2.2 3.7-2.2 4 0 4.7 2.6 4.7 6v9.9h-4v-8.8c0-2.1 0-4.8-2.9-4.8s-3.3 2.3-3.3 4.7v8.9h-4V8z"/>
 </svg></a></p>
@@ -16,6 +21,9 @@ const Contact = () => {
       <p><a href="https://www.instagram.com/hari.the_bad_captain/?hl=en" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
   <path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.02 4.9 4.9 0 0 1 1.02 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.02 1.77 4.9 4.9 0 0 1-1.77 1.02c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.02 4.9 4.9 0 0 1-1.02-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.02-1.77 4.9 4.9 0 0 1 1.77-1.02c.46-.16 1.26-.35 2.43-.4C8.42 2.21 8.8 2.2 12 2.2zM12 6.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11zm0 9.1a3.6 3.6 0 1 1 0-7.2 3.6 3.6 0 0 1 0 7.2zm5.7-9.86a1.28 1.28 0 1 1 0 2.56 1.28 1.28 0 0 1 0-2.56z"/>
 </svg></a></p>
+      <p><a href="https://x.com/hari4funuse2892" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.82-5.97 6.82H1.676l7.73-8.84L1.25 2.25h6.83l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L6.083 4.126H4.117L17.083 19.77z"/>
+      </svg></a></p>
     </section>
   );
 };

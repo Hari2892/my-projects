@@ -81,6 +81,11 @@ a:hover, Link:hover {
   width: 50%;
 }
 
+.Contact {
+  float: left;
+  margin-bottom: 40px;
+}
+
 .Contact a {
   float: left;
 }
@@ -96,4 +101,40 @@ a:hover, Link:hover {
 .Contact a svg:hover {
   color: #5eead4;
   transform: translateY(-2px);
+}
+
+.email-part {
+  float: left;
+  width: 100%;
+  margin-top: 0;
+}
+
+.email-part .email-label {
+  color: #2dd4bf; /* teal */
+  font-weight: 600;
+  float: left;
+  margin-right: 5px;
+}
+
+.email-part .email-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.email-part .email-link:hover {
+  color: #2dd4bf;
+  text-decoration: underline;
+}
+
+.go-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  font-size: 24px;
+  color: #2dd4bf;
+  opacity: 0.7;
+}
+
+.go-top:hover {
+  opacity: 1;
 }
