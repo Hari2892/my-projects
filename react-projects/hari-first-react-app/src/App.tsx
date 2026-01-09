@@ -15,18 +15,21 @@ import "./styles/App.css";
 const App = () => {
   return (
     <div className="App">
+      {/* LEFT FIXED SECTION */}
       <div className="right-section">
-      <Header />
-      <Bio />
+        <Header />
+        <Bio />
       </div>
 
-      <div className="left-section">
+      {/* RIGHT SCROLLABLE SECTION */}
+      <div className="left-section" id="scroll-container">
         <Skills />
         <Experience />
         <Education />
         <Projects />
         <Contact />
       </div>
+
       <GoToTop />
     </div>
   );

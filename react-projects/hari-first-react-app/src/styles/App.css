@@ -3,10 +3,6 @@
 /* Importing Raleway font directly in CSS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Raleway', sans-serif;
   font-weight: 400; /* Regular weight */
@@ -14,6 +10,18 @@ body {
   line-height: 1.6; /* For better readability */
   background-color: #2C3E50;
   color: #ECF0F1;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* ❌ stop page scroll */
+}
+
+.App {
+  display: flex;
+  height: 100vh;
 }
 
 header {
@@ -71,6 +79,39 @@ a:hover, Link:hover {
   cursor: pointer;
 }
 
+.nav-link {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  font-family: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #5eead4;
+}
+
+.nav-link.active {
+  color: #2dd4bf;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  left: -17px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: #2dd4bf;
+  border-radius: 50%;
+}
+
 .right-section {
   float: left;
   width: 50%;
@@ -79,6 +120,9 @@ a:hover, Link:hover {
 .left-section {
   float: left;
   width: 50%;
+  height: 100vh;
+  overflow-y: auto;          /* ✅ scroll only here */
+  scroll-behavior: smooth;
 }
 
 .Contact {

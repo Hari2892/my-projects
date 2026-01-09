@@ -4,20 +4,32 @@ const GoToTop = () => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
+    const container = document.getElementById("scroll-container");
+    if (!container) return;
+
     const toggleVisibility = () => {
-      setVisible(window.pageYOffset > 300);
+      setVisible(container.scrollTop > 300);
     };
 
-    window.addEventListener("scroll", toggleVisibility);
-    return () => window.removeEventListener("scroll", toggleVisibility);
+    container.addEventListener("scroll", toggleVisibility);
+
+    return () => {
+      container.removeEventListener("scroll", toggleVisibility);
+    };
   }, []);
+
+  const scrollToTop = () => {
+    const container = document.getElementById("scroll-container");
+    container?.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 
   return (
     <button
       className={`go-to-top ${visible ? "show" : ""}`}
-      onClick={() =>
-        window.scrollTo({ top: 0, behavior: "smooth" })
-      }
+      onClick={scrollToTop}
       aria-label="Go to top"
     >
       ↑

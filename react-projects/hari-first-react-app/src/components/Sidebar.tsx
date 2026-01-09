@@ -1,20 +1,69 @@
-//components/Header.tsx
+import React, { useEffect, useState } from "react";
 
-import React from "react";
-import { Link, Element } from 'react-scroll';
+const sections = [
+  { id: "skills", label: "Skills" },
+  { id: "experience", label: "Experience" },
+  { id: "education", label: "Education" },
+  { id: "projects", label: "Projects" },
+  { id: "contact", label: "Contact" }
+];
 
 const Sidebar = () => {
+  const [activeSection, setActiveSection] = useState("skills");
+
+  // Scroll on click
+  const handleScroll = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+  };
+
+  // Observe scrolling
+  useEffect(() => {
+    const container = document.getElementById("scroll-container");
+    if (!container) return;
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setActiveSection(entry.target.id);
+          }
+        });
+      },
+      {
+        root: container,        // 👈 IMPORTANT
+        threshold: 0.6          // 60% visible = active
+      }
+    );
+
+    sections.forEach(section => {
+      const el = document.getElementById(section.id);
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div className="Sidebar">
       <ul>
-        <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-        <li><Link to="Experience" smooth={true} duration={500}>Experience</Link></li>
-        <li><Link to="Education" smooth={true} duration={500}>Education</Link></li>
-        <li><Link to="Projects" smooth={true} duration={500}>Projects</Link></li>
-        <li><Link to="Contact" smooth={true} duration={500}>Contact</Link></li>
+        {sections.map(section => (
+          <li key={section.id}>
+            <button
+              className={`nav-link ${
+                activeSection === section.id ? "active" : ""
+              }`}
+              onClick={() => handleScroll(section.id)}
+            >
+              {section.label}
+            </button>
+          </li>
+        ))}
       </ul>
     </div>
   );
 };
 
-export default Sidebar
+export default Sidebar;

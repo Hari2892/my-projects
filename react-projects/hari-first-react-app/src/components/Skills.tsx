@@ -4,7 +4,7 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <h2>Skills</h2>
       <ul>
         <li>PHP</li>

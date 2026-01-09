@@ -4,7 +4,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <section className="Experience">
+    <section className="Experience" id="experience">
       <h2>Experience</h2>
       <div>
         <h3>Senior PHP Developer at Ventuno Technologies (P) Ltd, Chennai</h3>
