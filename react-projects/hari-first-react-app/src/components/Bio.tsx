@@ -18,7 +18,7 @@ const Bio = () => {
         </div>
       </div>
       <h2>About Me</h2>
-      <p>Experienced Senior PHP Developer with over 10 years of expertise in web
+      <p>Experienced Senior PHP Developer with over 10+ years of expertise in web
 development. Proficient in PHP, MySQL, HTML/CSS, JavaScript, jQuery/Ajax, and
 AngularJS, with a strong foundation in Firebase and Google Cloud Platform. Extensive
 experience with popular frameworks like Laravel, CodeIgniter, and WordPress,
