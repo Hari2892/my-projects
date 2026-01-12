@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import GoToTop from "./components/GoToTop";
 
-import "./styles/App.css";
+import "./styles/AppResponsive.css";
 
 const App = () => {
   return (
