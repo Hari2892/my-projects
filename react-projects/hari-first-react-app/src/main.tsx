@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from "react-dom/client"; // Import for React 18+
 import App from "./App"; // Import your main App component
 
-import "./styles/AppResponsive.css"; // Your global styles (optional)
+import "./styles/App.css"; // Your global styles (optional)
 
 const rootElement = document.getElementById("root") as HTMLElement; // Get the root div element
 
