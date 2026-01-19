@@ -18,16 +18,10 @@ const Bio = () => {
         </div>
       </div>
       <h2>About Me</h2>
-      <p>Experienced Senior PHP Developer with over 10+ years of expertise in web
-development. Proficient in PHP, MySQL, HTML/CSS, JavaScript, jQuery/Ajax, and
-AngularJS, with a strong foundation in Firebase and Google Cloud Platform. Extensive
-experience with popular frameworks like Laravel, CodeIgniter, and WordPress,
-including full-stack development. Skilled in integrating third-party services such as
-Google APIs (Google Place and Google Translate) and Stripe Payment Gateway. Adept
-in server management with a solid understanding of Apache server installation.
-Experienced in leading teams, providing mentorship, and conducting code reviews.
-Passionate about delivering high-quality web applications that meet both client and
-user needs.</p>
+      <p><b>Senior PHP & Full-Stack Developer with 10+ years of experience</b> building scalable, high-performance web applications and backend systems.</p>
+      <p>Specialized in <b>PHP, Laravel, CodeIgniter, MySQL, REST APIs</b>, and full-stack development for <b>OTT platforms, web applications, and CTV environments.</b> Proven experience integrating <b>Stripe payment gateways, Google APIs (Places, Translate),</b> and <b>cloud services using Google Cloud Platform and Firebase.</b></p>
+      <p>Strong background in <b>backend architecture, performance optimization, and server management (Apache, caching, cloud infrastructure).</b> Experienced in leading backend development, mentoring junior developers, conducting code reviews, and collaborating with cross-functional teams to deliver reliable, production-ready solutions.</p>
+      <p>Passionate about building maintainable systems that scale, improve performance, and meet real business needs.</p>
     </section>
   );
 };
