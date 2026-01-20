@@ -203,6 +203,16 @@ a:hover, Link:hover {
   transform: translateY(-3px);
 }
 
+.projectTitle {
+  margin-bottom: 0;
+}
+
+.projectSub {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2dd4bf;
+}
+
 /* ===============================
    Tablet Responsive (≤ 1023px)
 ================================ */

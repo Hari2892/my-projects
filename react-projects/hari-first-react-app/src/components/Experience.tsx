@@ -17,6 +17,7 @@ const Experience = () => {
           <li>Conduct code reviews and mentor junior developers to optimize team workflows.</li>
           <li>Manage server setups, ensuring reliable hosting environments, and implemented Memcache to enhance performance.</li>
           <li>Utilized AI tools for CI3 to CI4 migration, improving development efficiency.</li>
+          <li>Integrated and handled Payments for Website, Mobile and CTV endpoints.</li>
         </ul>
       </div>
 
