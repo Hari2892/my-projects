@@ -1,7 +1,5 @@
 //components/Experience.tsx
 
-import React from "react";
-
 const Experience = () => {
   return (
     <section className="Experience" id="experience">

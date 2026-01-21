@@ -1,7 +1,5 @@
 //components/Skills.tsx
 
-import React from "react";
-
 const Skills = () => {
   return (
     <section className="skills" id="skills">

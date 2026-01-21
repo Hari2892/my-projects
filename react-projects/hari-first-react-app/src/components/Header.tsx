@@ -1,7 +1,5 @@
 //components/Header.tsx
 
-import React from "react";
-
 const Header = () => {
   return (
     <header>
