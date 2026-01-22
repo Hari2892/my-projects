@@ -19,7 +19,7 @@ const Skills = () => {
         <li>Google Cloud Platform (Storage & VM)</li>
         <li>Git</li>
         <li>Stripe Payment Gateway</li>
-        <li>In-App payments for Mobile & CTVs</li>
+        <li>In-App payments for Mobile & CTV Endpoints</li>
         <li>Apache Server</li>
         <li>Google Place API</li>
         <li>Google Translate API</li>
