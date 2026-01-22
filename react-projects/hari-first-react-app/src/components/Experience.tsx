@@ -6,7 +6,7 @@ const Experience = () => {
       <h2>Experience</h2>
       <div>
         <h3>Senior PHP Developer at Ventuno Technologies (P) Ltd, Chennai</h3>
-        <p>2019 - Present</p>
+        <p>08/2019 - 01/2026</p>
         <ul>
           <li>Manage and enhance backend for OTT applications, ensuring high performance and scalability.</li>
           <li>Develop and maintain REST APIs for web, mobile, and CTV platforms using PHP and MySQL.</li>
@@ -16,7 +16,7 @@ const Experience = () => {
           <li>Manage server setups, ensuring reliable hosting environments, and implemented Memcache to enhance performance.</li>
           <li>Utilized AI tools for CI3 to CI4 migration, improving development efficiency.</li>
           <li>Integrated and handled Payments for Website, Mobile and CTV endpoints.</li>
-          <li>Written Postman Tests for REST APIs</li>
+          <li>Written Postman Tests for REST APIs to ensure functionality and reliability.</li>
         </ul>
       </div>
 
