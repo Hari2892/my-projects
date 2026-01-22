@@ -5,25 +5,41 @@ const GoToTop = () => {
 
   useEffect(() => {
     const container = document.getElementById("scroll-container");
-    if (!container) return;
 
-    const toggleVisibility = () => {
-      setVisible(container.scrollTop > 300);
+    const handleScroll = () => {
+      if (window.innerWidth <= 1023) {
+        // Mobile / Tablet → window scroll
+        setVisible(window.scrollY > 300);
+      } else if (container) {
+        // Desktop → container scroll
+        setVisible(container.scrollTop > 300);
+      }
     };
 
-    container.addEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", handleScroll);
+    container?.addEventListener("scroll", handleScroll);
 
     return () => {
-      container.removeEventListener("scroll", toggleVisibility);
+      window.removeEventListener("scroll", handleScroll);
+      container?.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const scrollToTop = () => {
-    const container = document.getElementById("scroll-container");
-    container?.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
+    if (window.innerWidth <= 1023) {
+      // Mobile / Tablet
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    } else {
+      // Desktop
+      const container = document.getElementById("scroll-container");
+      container?.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
   };
 
   return (
