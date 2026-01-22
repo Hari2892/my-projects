@@ -16,6 +16,8 @@ const Experience = () => {
           <li>Manage server setups, ensuring reliable hosting environments, and implemented Memcache to enhance performance.</li>
           <li>Utilized AI tools for CI3 to CI4 migration, improving development efficiency.</li>
           <li>Integrated and handled Payments for Website, Mobile and CTV endpoints.</li>
+          <li>Integrated In-App payment verification & validations for Mobile & CTV endpoints.</li>
+          <li>Written Postman Tests for REST APIs</li>
         </ul>
       </div>
 
