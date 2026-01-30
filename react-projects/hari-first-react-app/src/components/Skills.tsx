@@ -16,7 +16,7 @@ const Skills = () => {
         <li>WordPress</li>
         <li>Fullstack Development</li>
         <li>Firebase</li>
-        <li>Google Cloud Platform (Storage & VM)</li>
+        <li>Google Cloud Knowledge (VM, Storage)</li>
         <li>Git</li>
         <li>Stripe Payment Gateway</li>
         <li>In-App payments for Mobile & CTV Endpoints</li>
@@ -24,7 +24,6 @@ const Skills = () => {
         <li>Google Place API</li>
         <li>Google Translate API</li>
         <li>AI tools (ChatGPT, Grok)</li>
-        <li>Google Cloud Knowledge (VM, Storage)</li>
       </ul>
     </section>
   );
