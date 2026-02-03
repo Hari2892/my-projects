@@ -10,7 +10,7 @@ const Skills = () => {
         <li>HTML/CSS</li>
         <li>JavaScript</li>
         <li>jQuery/Ajax</li>
-        <li>AngularJS (Basic)</li>
+        <li>React.js (Basic)</li>
         <li>Laravel</li>
         <li>CodeIgniter (3 & 4)</li>
         <li>WordPress</li>

@@ -9,9 +9,9 @@ const Projects = () => {
         <p className="projectSub"><b>OTT Platform | Backend APIs for Web, Mobie and CTV | Payment Integration</b></p>
         <ul>
           <li>Designed and maintained scalable <b>REST APIs</b> supporting <b>Web, Mobile and CTV applications.</b></li>
-          <li>Integrated <b>Stripe Payment Gateway</b> for secure online transactions for <b>SVOD & TVOD</b> payments.</li>
+          <li>Integrated Stripe payments handling <b>SVOD/TVOD transactions</b> with <b>secure webhook validation</b>.</li>
           <li>Built backend services using <b>PHP, MySQL and Codeigniter,</b> ensuring high performance and reliability.</li>
-          <li>Supported production systems used by <b>thousands of users,</b> focusing on stability and scalability.</li>
+          <li>Supported production systems serving <b>50K+ monthly users</b> with <b>99.9% uptime</b>.</li>
           <li>Integrated and handled payments for <b>Website, Mobile and CTV</b> endpoints.</li>
         </ul>
         <a href="https://kweli.tv/" target="_blank">See It in Action</a>
@@ -57,6 +57,18 @@ const Projects = () => {
           <li>Built and customized a WordPress-based website for business requirements.</li>
           <li>Implemented responsive web design using <b>HTML, CSS, JavaScript and jQuery.</b></li>
           <li>Ensured coss-browser compatability and optimized page performance.</li>
+        </ul>
+        <a href="https://www.polishedrx.com/" target="_blank">See It in Action</a>
+      </div>
+
+      <div>
+        <h3 className="projectTitle">Personal Portfolio Website</h3>
+        <p className="projectSub"><b>React.js | Responsive Design | Smooth Scroll | Netlify</b></p>
+        <ul>
+          <li>Designed and developed a personal portfolio website using <b>React.js</b></li>
+          <li>Implemented smooth scrolling navigation and responsive layouts for desktop, tablet, and mobile devices.</li>
+          <li>Showcased professional experience, projects, and skills in a clean, recruiter-friendly UI</li>
+          <li>Deployed and maintained the site using modern frontend best practices.</li>
         </ul>
         <a href="https://www.polishedrx.com/" target="_blank">See It in Action</a>
       </div>
