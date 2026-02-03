@@ -70,7 +70,7 @@ const Projects = () => {
           <li>Showcased professional experience, projects, and skills in a clean, recruiter-friendly UI</li>
           <li>Deployed and maintained the site using modern frontend best practices.</li>
         </ul>
-        <a href="https://www.polishedrx.com/" target="_blank">See It in Action</a>
+        <a href="https://hariharan-bio-site.netlify.app/" target="_blank">See It in Action</a>
       </div>
     </section>
   );
