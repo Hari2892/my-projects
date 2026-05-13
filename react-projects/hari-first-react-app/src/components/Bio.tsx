@@ -2,7 +2,7 @@
 
 import Sidebar from './Sidebar';
 
-import myPhoto from '/src/assets/images/prof_pic_2.jpg';
+import myPhoto from '/src/assets/images/my_profile_img.png';
 
 const Bio = () => {
   return (
