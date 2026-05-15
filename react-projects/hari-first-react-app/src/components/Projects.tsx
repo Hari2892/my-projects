@@ -72,6 +72,17 @@ const Projects = () => {
         </ul>
         <a href="https://hariharan-bio-site.netlify.app/" target="_blank">See It in Action</a>
       </div>
+
+      <div>
+        <h3 className="projectTitle">AI Terminal Assistant</h3>
+        <p className="projectSub"><b>Python | LLM APIs | CLI Development</b></p>
+        <ul>
+          <li>Developed a lightweight Command Line Interface (CLI) tool using <b>Python</b> to interact directly with Large Language Models from the terminal.</li>
+          <li>Engineered robust API request handling, including error management for rate limits and quota restrictions across different AI providers.</li>
+          <li>Designed the tool to accelerate developer workflows by enabling quick, in-terminal query resolutions without context switching.</li>
+        </ul>
+        <a href="https://github.com/Hari2892/ai-llm-learning" target="_blank">See It in Action</a>
+      </div>
     </section>
   );
 };
