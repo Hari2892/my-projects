@@ -71,10 +71,15 @@ ul li {
   list-style-type: disc;
 }
 
-a, Link {
+a, Link, .project-link {
   color: #2dd4bf;
   text-decoration: none;
   cursor: pointer;
+}
+
+.project-link{
+  float: left;
+  width: 100%;
 }
 
 a:hover, Link:hover {

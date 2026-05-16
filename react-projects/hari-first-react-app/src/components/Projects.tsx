@@ -93,8 +93,8 @@ const Projects = () => {
           <li>Enforced strict data validation and serialization using Pydantic schemas, ensuring secure and predictable API responses.</li>
           <li>Leveraged FastAPI’s built-in OpenAPI capabilities to generate interactive Swagger UI documentation for seamless frontend integration and testing.</li>
         </ul>
-        <a href="https://github.com/Hari2892/python-fastapi" target="_blank">See It in Action</a>
-        <a href="https://documenter.getpostman.com/view/54330326/2sBXqRiGMf" target="_blank">View API Documentation</a>
+        <a href="https://github.com/Hari2892/python-fastapi" target="_blank" className="project-link">See It in Action</a>
+        <a href="https://documenter.getpostman.com/view/54330326/2sBXqRiGMf" target="_blank" className="project-link">View API Documentation</a>
       </div>
     </section>
   );
