@@ -83,6 +83,19 @@ const Projects = () => {
         </ul>
         <a href="https://github.com/Hari2892/ai-llm-learning" target="_blank">See It in Action</a>
       </div>
+
+      <div>
+        <h3 className="projectTitle">User Management API Microservice</h3>
+        <p className="projectSub"><b>Python | FastAPI | PostgreSQL | REST APIs | Swagger UI</b></p>
+        <ul>
+          <li>Designed and developed a high-performance RESTful API microservice for comprehensive user management using Python and FastAPI.</li>
+          <li>Implemented full CRUD operations (Create, Read, Update, Delete) integrating seamlessly with a PostgreSQL database for reliable user record storage and data manipulation.</li>
+          <li>Enforced strict data validation and serialization using Pydantic schemas, ensuring secure and predictable API responses.</li>
+          <li>Leveraged FastAPI’s built-in OpenAPI capabilities to generate interactive Swagger UI documentation for seamless frontend integration and testing.</li>
+        </ul>
+        <a href="https://github.com/Hari2892/python-fastapi" target="_blank">See It in Action</a>
+        <a href="https://documenter.getpostman.com/view/54330326/2sBXqRiGMf" target="_blank">View API Documentation</a>
+      </div>
     </section>
   );
 };
