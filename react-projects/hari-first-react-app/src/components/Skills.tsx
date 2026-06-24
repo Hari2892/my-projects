@@ -4,26 +4,38 @@ const Skills = () => {
   return (
     <section className="skills" id="skills">
       <h2>Skills</h2>
+
+      <h3>Backend & Architecture</h3>
+
       <ul>
-        <li>PHP</li>
-        <li>MySQL</li>
-        <li>HTML/CSS</li>
-        <li>JavaScript</li>
-        <li>jQuery/Ajax</li>
-        <li>React.js (Basic)</li>
-        <li>Laravel</li>
-        <li>CodeIgniter (3 & 4)</li>
-        <li>WordPress</li>
-        <li>Fullstack Development</li>
-        <li>Firebase</li>
-        <li>Google Cloud Knowledge (VM, Storage)</li>
-        <li>Git</li>
+        <li>PHP (Laravel, CodeIgniter)</li>
+        <li>Python (FastAPI)</li>
+        <li>REST API Design & Microservices</li>
+        <li>Apache Server Management</li>
+      </ul>
+
+      <h3>Databases & Cloud</h3>
+
+      <ul>
+        <li>MySQL & PostgreSQL</li>
+        <li>Google Cloud Platform (GCP)</li>
+        <li>Firebase Storage</li>
+      </ul>
+
+      <h3>Third-Party & AI Integrations</h3>
+
+      <ul>
+        <li>LLM APIs (OpenAI, Gemini)</li>
         <li>Stripe Payment Gateway</li>
-        <li>In-App payments for Mobile & CTV Endpoints</li>
-        <li>Apache Server</li>
-        <li>Google Place API</li>
-        <li>Google Translate API</li>
-        <li>AI tools (ChatGPT, Grok)</li>
+        <li>Google APIs (Places, Translate)</li>
+      </ul>
+
+      <h3>Frontend & Developer Tools</h3>
+
+      <ul>
+        <li>JavaScript, React.js, HTML/CSS</li>
+        <li>Git & Postman</li>
+        <li>AI Developer Tools (GitHub Copilot)</li>
       </ul>
     </section>
   );
