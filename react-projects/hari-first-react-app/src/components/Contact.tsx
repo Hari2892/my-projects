@@ -7,7 +7,7 @@ const Contact = () => {
       <p className="email-part">
         <span className="email-label">Email: </span>
         <a href="mailto:mail2hari4job2892@gmail.com" className="email-link" aria-label="Gmail">
-          hari4workuse2892@gmail.com
+          mail2hari4job2892@gmail.com
         </a>
       </p>
       <p><a href="https://linkedin.com/in/hariharan-r-55158515a" target="_blank" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
