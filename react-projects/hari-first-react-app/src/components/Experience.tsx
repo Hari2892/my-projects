@@ -5,7 +5,7 @@ const Experience = () => {
     <section className="Experience" id="experience">
       <h2>Experience</h2>
       <div>
-        <h3>Senior PHP Developer at Ventuno Technologies (P) Ltd, Chennai</h3>
+        <h3>Software Engineer at Ventuno Technologies (P) Ltd, Chennai</h3>
         <p>08/2019 - 01/2026</p>
         <ul>
           <li>Manage and enhance backend for OTT applications, ensuring high performance and scalability.</li>
