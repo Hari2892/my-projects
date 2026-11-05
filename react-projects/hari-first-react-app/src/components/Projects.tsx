@@ -44,7 +44,7 @@ const Projects = () => {
         <p className="projectSub"><b>Business Website | Wordpress Development</b></p>
         <ul>
           <li>Designed and developed a business website using <b>WordPress,</b> focusing on usability and content management.</li>
-          <li>Customized themes and implemented responsive UI using <b>HTML, CSS, JavaScript and juery.</b></li>
+          <li>Customized themes and implemented responsive UI using <b>HTML, CSS, JavaScript and jQuery.</b></li>
           <li>Delivered a maintainable solution enabling easy content updates by non-technical users.</li>
         </ul>
         <a href="https://www.atelier-cocktail.com/" target="_blank">See It in Action</a>
