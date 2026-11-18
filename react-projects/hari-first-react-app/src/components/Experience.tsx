@@ -21,7 +21,7 @@ const Experience = () => {
       </div>
 
       <div>
-        <h3>PHP Developer at O Clock Software Pvt Limited, Chennai</h3>
+        <h3>Senior Programmer at O Clock Software Pvt Limited, Chennai</h3>
         <p>04/2014 - 07/2019</p>
         <ul>
           <li>Developed dynamic websites and applications using PHP, MySQL, and JavaScript, focusing on robust, scalable solutions.</li>
